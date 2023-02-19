@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.toastui-editor-contents {
+  font-size: 1.1875rem !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.hero-img-container > span {
+  min-height: 100%;
+}
+
+.article-hero-image:hover ~ span img {
+  transform: scale(1.05);
+}
+
+.toastui-editor-contents p,
+td {
+  color: #3b4352 !important;
+}
+
+.toastui-editor-contents strong {
+  color: #444444;
+}
+
+.search-input:focus ~ .search-results {
+  display: block;
+}
+
+.search-results:hover {
+  display: block !important;
+}
