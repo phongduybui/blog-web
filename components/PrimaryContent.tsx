@@ -60,6 +60,7 @@ const PrimaryContent = ({
           <Pagination
             className="ant-pagination text-right !my-6"
             current={page}
+            hideOnSinglePage
             onChange={handlePageChange}
             total={articlesData?.meta?.pagination?.total}
             pageSize={articlesData?.meta?.pagination?.pageSize || 10}

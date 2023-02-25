@@ -8,7 +8,7 @@ const nextConfig = {
     return [
       {
         source: '/uploads/:path*',
-        destination: 'https://admin.hoangan.site/uploads/:path*', // Proxy to Backend
+        destination: process.env.NEXT_PUBLIC_SERVER_URL + '/uploads/:path*', // Proxy to Backend
       },
     ];
   },

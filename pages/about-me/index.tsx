@@ -54,7 +54,7 @@ const AboutMe = () => {
 
               <div className="pt-12 pb-8">
                 <a
-                  href="https://drive.google.com/file/d/17FSYgiB4INf2wRYoqNV6GNTiwpTrn10t/view?usp=sharing"
+                  href="#"
                   target="_blank"
                   className="bg-primary hover:bg-[#344cb8] text-white font-bold py-2 px-4 rounded-full"
                   rel="noreferrer"

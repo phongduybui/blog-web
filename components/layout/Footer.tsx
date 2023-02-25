@@ -19,7 +19,7 @@ const Footer = () => {
         </a>
       </Link>
       <p className="text-slate-300 text-sm">
-        Copyright © 2022 Anne. All Right Reserved.
+        {`Copyright © ${new Date().getFullYear()} Anne. All Right Reserved.`}
       </p>
       <SocialGroup size="medium" />
       {/* <div className="grid grid-cols-12 gap-4">
